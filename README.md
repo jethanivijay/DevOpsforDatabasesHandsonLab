@@ -1,35 +1,20 @@
-# Welcome to DevOps with Github - HandsonLabs
+# DevOps for Databases HandsonLab using Github Actions  !
 
 
-## Lab 1 : Create Express App using NodeJs
-[BranchLink : EXPRESSJS](https://github.com/jethanivijay/DevopsWithGithub-Hands-on-Labs/tree/EXPRESSJS)
+## Lab 1 : Azure SQL Database and update database as code
+[BranchLink : AzureSQLDatabase](https://github.com/vijayjjethani/DevOpsforDatabasesHandsonLab/tree/AzureSQLDatabase)
 
-## Lab 2 : Create Webapp for FastFood Restaurant using ASP.NET MVC APP
-[BranchLink : ASP.NET MVC](https://github.com/jethanivijay/DevopsWithGithub-Hands-on-Labs/tree/ASPNETMVC)
+## Lab 2 : Azure MYSQL Database and update database as code
+[BranchLink : AzureMYSQL](https://github.com/vijayjjethani/DevOpsforDatabasesHandsonLab/tree/AzureMYSQLDatabase)
 
-## Lab 3 : Creake AKS Cluster and Deploy App using Helm
-[BranchLink : AKS](https://github.com/jethanivijay/DevopsWithGithub-Hands-on-Labs/tree/AKS)
+## Lab 3 : Azure Postgres Database and update database as code
+[BranchLink : AzurePostgresDatabase](https://github.com/vijayjjethani/DevOpsforDatabasesHandsonLab/tree/AzurePostgresDatabase)
 
-## Lab 4 : Create SailJs App on Azure using Node and Javascript
-[BranchLink : SailJs using Node and Javascript ](https://github.com/jethanivijay/DevopsWithGithub-Hands-on-Labs/tree/SAILJS)
+## Lab 4  : Create Online Polls using Django App and PostgreSQL DB
+[BranchLink : Django App and PostgreSQL DB](https://github.com/vijayjjethani/DevOpsforDatabasesHandsonLab/tree/DjangoPostgresdb)
 
-## Lab 5 : Create PHP App on Azure using PHP and CSS
-[BranchLink : PHP and CSS](https://github.com/jethanivijay/DevopsWithGithub-Hands-on-Labs/tree/PHP)
-
-## Lab 6 : Azure SQL Database and update database as code
-[BranchLink : AzureSQLDatabase](https://github.com/jethanivijay/DevopsWithGithub-Hands-on-Labs/tree/AzureSQLDatabase)
-
-## Lab 7 : Azure MYSQL Database and update database as code
-[BranchLink : AzureMYSQL](https://github.com/jethanivijay/DevopsWithGithub-Hands-on-Labs/tree/AzureMYSQLDatabase)
-
-## Lab 8 : Azure Postgres Database and update database as code
-[BranchLink : AzurePostgresDatabase](https://github.com/jethanivijay/DevopsWithGithub-Hands-on-Labs/tree/AzurePostgresDatabase)
-
-## Lab 9  : Create Online Polls using Django App and PostgreSQL DB
-[BranchLink : Django App and PostgreSQL DB](https://github.com/jethanivijay/DevopsWithGithub-Hands-on-Labs/tree/DjangoPostgresdb)
-
-## Lab 10 : Create Webapp for Car Rental Vendor using Java and MySQL
-[BranchLink : Java and MySQL DB ](https://github.com/jethanivijay/DevopsWithGithub-Hands-on-Labs/tree/JavaMySQLdb)
+## Lab 5 : Create Webapp for Car Rental Vendor using Java and MySQL
+[BranchLink : Java and MySQL DB ](https://github.com/vijayjjethani/DevOpsforDatabasesHandsonLab/tree/JavaMySQLdb)
 
 
 ##  Instructions to Get Started on this Labs
