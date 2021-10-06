@@ -37,7 +37,7 @@ jobs:
           az mysql server firewall-rule create --resource-group ${{ env.AZURE_RESOURCE_GROUP }} --server ${{ env.AZURE_MYSQL_SERVERNAME }} --name AllowMyIP --start-ip-address ${{ env.AZURE_MYSQLFIREWALL_IP }} --end-ip-address ${{ env.AZURE_MYSQLFIREWALL_IP }}
           az mysql db create --name ${{ env.AZURE_MYSQL_DATABASE }} --resource-group ${{ env.AZURE_RESOURCE_GROUP }} --server-name ${{ env.AZURE_MYSQL_SERVERNAME }}
           az appservice plan create -g ${{ env.AZURE_RESOURCE_GROUP }} -n ${{ env.APPSERVICE }} --is-linux --sku S1 -l ${{ env.AZURE_LOCATION }}
-          az webapp create -g ${{ env.AZURE_RESOURCE_GROUP }} --plan ${{ env.APPPLAN }} --name ${{ env.APPSERVICE }} -i az webapp create -g MyResourceGroup -p MyPlan -n MyUniqueAppName -i vijaygithubregistry.azurecr.io/webmysql
+          az webapp create -g ${{ env.AZURE_RESOURCE_GROUP }} --plan ${{ env.APPPLAN }} --name ${{ env.APPSERVICE }} -i vijaygithubregistry.azurecr.io/webmysql
           az webapp config container set -g ${{ env.AZURE_RESOURCE_GROUP }} --name ${{ env.APPSERVICE }} --docker-registry-server-url https://vijaygithubregistry.azurecr.io --docker-registry-server-user ${{ secrets.REGISTRY_USERNAME }} --docker-registry-server-password ${{ secrets.REGISTRY_PASSWORD }}
           az webapp config connection-string set -g ${{ env.AZURE_RESOURCE_GROUP }} --name ${{ env.APPSERVICE }} -t mysql --settings MyShuttleDb='${{ secrets.MYSHUTTLEDB }}'
           
