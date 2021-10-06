@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@v1
     - uses: azure/login@v1
       with:
-        creds: ${{ secrets.DEPLOYGITHUB }}
+        creds: ${{ secrets.ACTIONSDEPLOY }}
 
 # Provision a Azure MYSQL Database on Azure
     - name: Azure POSTGRESQL Server creation
