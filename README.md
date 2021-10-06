@@ -1,4 +1,4 @@
-# Databases Automation HandsonLab using Github Actions !
+# DevOpsforDatabases HandsonLab using Github Actions !
 
 
 ## Lab 1 : Azure SQL Database and update database as code
