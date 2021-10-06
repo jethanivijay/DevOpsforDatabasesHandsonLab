@@ -3,10 +3,9 @@ name: Sql database automation
 on:
   push:
     branches:
-      - AzureSQLDatabase
-
+    - AzureSQLDatabase
     paths:
-    - 'readmeservicecreate.md' 
+    - readmeservicecreate.md 
 
 env:
   AZURE_RESOURCE_GROUP: vijaysqldb               # set this to your Azure Resource group's name  
