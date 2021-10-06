@@ -4,9 +4,8 @@ on:
   push:
     branches:
       - AzureSQLDatabase
-
     paths:
-    - 'readmeforsqlupdate.md' 
+      - readmeforsqlupdate.md
 env:
   AZURE_SQL_SERVERNAME: vijaysqldbserver.database.windows.net 
 
