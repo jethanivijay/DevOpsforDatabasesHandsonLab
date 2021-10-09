@@ -24,7 +24,7 @@ jobs:
     - uses: azure/mysql@v1
       with:
         server-name: ${{ env.AZURE_MYSQL_SERVERNAME }}
-        connection-string: ${{ secrets.AZURE_MYSQL_CONNECTION_STRING }}
+        connection-string: ${{ secrets.MYSQL_CONNECTION_STRING }}
         sql-file: './vijaymysqldatabase.sql'
 
     # Azure logout 
