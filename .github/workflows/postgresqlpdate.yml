@@ -7,7 +7,7 @@ on:
     paths:
     - readmeforpostgresqlupdate.md
 env:
-  AZURE_POSTGRESQL_SERVERNAME: vijaypostgresqlserver.postgres.database.azure.com 
+  AZURE_POSTGRESQL_SERVERNAME: vijaypostgreholactions.postgres.database.azure.com 
 
 jobs:
   postgresdbupdate:
@@ -20,11 +20,11 @@ jobs:
          creds: ${{ secrets.ACTIONSDEPLOY }}
      - uses: azure/postgresql@v1
        with:
-         connection-string: ${{ secrets.AZURE_POSTGRESQL_CONNECTION_STRING }}
+         connection-string: ${{ secrets.POSTGRESQL_CONNECTION_STRING }}
          server-name: ${{ env.AZURE_POSTGRESQL_SERVERNAME }}
          plsql-file: "vijaypostgresql.sql"
 
     # Azure logout 
      - name: logout
        run: |
-        az logout 
+        az logout
