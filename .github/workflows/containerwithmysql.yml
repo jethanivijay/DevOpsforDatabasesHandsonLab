@@ -31,7 +31,7 @@ jobs:
           with:
             java-version: 14
         - run: sudo mvn -B package --file pom.xml -DskipITs --settings ./maven/settings.xml
-        - run: docker build src -t vijaygithubregistry.azurecr.io/webmysql:${{ github.sha }}
+        - run: docker build src -t vijaygithubregistry.azurecr.io/webmysqlhol:latest
         
         - uses: azure/login@v1
           with:
@@ -43,13 +43,13 @@ jobs:
             username: ${{ secrets.REGISTRY_USERNAME }}
             password: ${{ secrets.REGISTRY_PASSWORD }}
             
-        - run: docker push vijaygithubregistry.azurecr.io/webmysql:${{ github.sha }}
+        - run: docker push vijaygithubregistry.azurecr.io/webmysqlhol:latest
                  
      
         - uses: azure/webapps-deploy@v2
           with:
             app-name: 'vijayjavamysql'
-            images: 'vijaygithubregistry.azurecr.io/webmysql:${{ github.sha }}'
+            images: 'vijaygithubregistry.azurecr.io/webmysqlhol:latest'
   
   mysqlupdate:
     runs-on: windows-latest
@@ -61,6 +61,6 @@ jobs:
    
     - uses: azure/mysql@v1
       with:
-        server-name: vijayjavamysqltest.mysql.database.azure.com
+        server-name: vijayjavamysqlhol.mysql.database.azure.com
         connection-string: ${{ secrets.MYSHUTTLECONNECTION }}
         sql-file: './CreateMYSQLDB.sql'
