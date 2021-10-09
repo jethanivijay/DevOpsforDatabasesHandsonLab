@@ -9,11 +9,11 @@ on:
     - 'readmepostgresqlcreate.md' 
 
 env:
-  AZURE_RESOURCE_GROUP: vijaypostgresqldb               # set this to your Azure Resource group's name  
-  AZURE_LOCATION: eastus                         # set this to your azure resource group location   
-  AZURE_POSTGRESQL_SERVERNAME: vijaypostgresqlserver         # set postgresql Server  
-  AZURE_POSTGRESQL_DATABASE: vijaypostgresdb    # set postgresql Databsae
-  AZURE_POSTGRESQL_FIREWALL_IP: 0.0.0.0    # set this to all Azure IPs
+  AZURE_RESOURCE_GROUP: vijaypostgreholactions         # set this to your Azure Resource group's name  
+  AZURE_LOCATION: eastus                               # set this to your azure resource group location   
+  AZURE_POSTGRESQL_SERVERNAME: vijaypostgreholactions  # set postgresql Server  
+  AZURE_POSTGRESQL_DATABASE: vijaypostgreholactions    # set postgresql Databsae
+  AZURE_POSTGRESQL_FIREWALL_IP: 0.0.0.0                # set this to all Azure IPs
   
 
 jobs:
@@ -40,4 +40,4 @@ jobs:
 # Azure logout 
     - name: logout
       run: |
-        az logout 
+        az logout
