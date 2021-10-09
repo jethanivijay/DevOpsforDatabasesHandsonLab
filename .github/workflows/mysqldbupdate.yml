@@ -8,7 +8,7 @@ on:
     paths:
     - readmeformysqlupdate.md
 env:
-  AZURE_MYSQL_SERVERNAME: vijaymysqldbserver.mysql.database.azure.com 
+  AZURE_MYSQL_SERVERNAME: vijaymysqlholactions.mysql.database.azure.com 
 
 jobs:
   mysqlupdate:
@@ -30,4 +30,4 @@ jobs:
     # Azure logout 
     - name: logout
       run: |
-        az logout 
+        az logout
