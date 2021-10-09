@@ -7,7 +7,7 @@ on:
     paths:
     - readmemysqlupdate.md
 env:
-  MYSQLSERVERNAME: vijayjavamysqltest.mysql.database.azure.com
+  MYSQLSERVERNAME: vijayjavamysqlhol.mysql.database.azure.com
 
 jobs:
   mysqlupdate:
