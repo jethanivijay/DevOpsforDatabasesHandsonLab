@@ -8,11 +8,11 @@ on:
     - 'readmeformysql.md' 
 
 env:
-  AZURE_RESOURCE_GROUP: vijaymysqldb               # set this to your Azure Resource group's name  
+  AZURE_RESOURCE_GROUP: vijaymysqlholactions     # set this to your Azure Resource group's name  
   AZURE_LOCATION: eastus                         # set this to your azure resource group location   
-  AZURE_MYSQL_SERVERNAME: vijaymysqldbserver         # set MYSQL Server  
-  AZURE_MYSQL_DATABASE: vijaymysqldatabase    # set MYSQL Databsae
-  AZURE_MYSQLFIREWALL_IP: 0.0.0.0    # set this to all Azure IPs
+  AZURE_MYSQL_SERVERNAME: vijaymysqlholactions   # set MYSQL Server  
+  AZURE_MYSQL_DATABASE: vijaymysqlholactions     # set MYSQL Databsae
+  AZURE_MYSQLFIREWALL_IP: 0.0.0.0                # set this to all Azure IPs
   
 
 jobs:
@@ -38,4 +38,4 @@ jobs:
     # Azure logout 
     - name: logout
       run: |
-        az logout 
+        az logout
