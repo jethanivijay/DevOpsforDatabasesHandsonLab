@@ -7,7 +7,7 @@ on:
     paths:
       - readmeforsqlupdate.md
 env:
-  AZURE_SQL_SERVERNAME: vijaysqldbserver.database.windows.net 
+  AZURE_SQL_SERVERNAME: vijaysqlholactions.database.windows.net 
 
 jobs:
   sqldbupdate:
