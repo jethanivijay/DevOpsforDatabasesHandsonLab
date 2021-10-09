@@ -2,19 +2,19 @@
 
 
 ## Lab 1 : Azure SQL Database and update database as code
-[BranchLink : AzureSQLDatabase](https://github.com/vijayjjethani/DevOpsforDatabasesHandsonLab/tree/AzureSQLDatabase)
+[BranchLink : AzureSQLDatabase](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureSQLDatabase)
 
 ## Lab 2 : Azure MYSQL Database and update database as code
-[BranchLink : AzureMYSQL](https://github.com/vijayjjethani/DevOpsforDatabasesHandsonLab/tree/AzureMYSQLDatabase)
+[BranchLink : AzureMYSQL](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureMYSQLDatabase)
 
 ## Lab 3 : Azure Postgres Database and update database as code
-[BranchLink : AzurePostgresDatabase](https://github.com/vijayjjethani/DevOpsforDatabasesHandsonLab/tree/AzurePostgresDatabase)
+[BranchLink : AzurePostgresDatabase](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzurePostgresDatabase)
 
 ## Lab 4  : Create Online Polls using Django App and PostgreSQL DB
-[BranchLink : Django App and PostgreSQL DB](https://github.com/vijayjjethani/DevOpsforDatabasesHandsonLab/tree/DjangoPostgresdb)
+[BranchLink : Django App and PostgreSQL DB](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/DjangoPostgresdb)
 
 ## Lab 5 : Create Webapp for Car Rental Vendor using Java and MySQL
-[BranchLink : Java and MySQL DB ](https://github.com/vijayjjethani/DevOpsforDatabasesHandsonLab/tree/JavaMySQLdb)
+[BranchLink : Java and MySQL DB ](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/JavaMySQLdb)
 
 
 ##  Instructions to Get Started on this Labs
