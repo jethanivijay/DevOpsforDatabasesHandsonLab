@@ -8,10 +8,10 @@ on:
     - 'readmedjangobuilddeploy.md' 
 
 env:
-  RESOURCEGROUP: vijaydjangopostgrestest
-  APPPLAN: Djangopostgresplantest
-  APPSERVICE: vijaydjangopostgrestest
-  POSTGRESSERVER: vijaydjangopostgrestest
+  RESOURCEGROUP: vijaydjangopostgreshol
+  APPPLAN: vijaydjangopostgreshol
+  APPSERVICE: vijaydjangopostgreshol
+  POSTGRESSERVER: vijaydjangopostgreshol
   POSTGRESDB: pollsdb
   LOCATION: eastus
   ALLOWCLIENTIP: 0.0.0.0
