@@ -1,9 +1,9 @@
 ## Webapp for Car Rental Vendor to track Trip and expenses using JavaMySQL Stack
 
-### Framework/Languague : Java 
-### Technology Components : Appservice , Azure Database for Mysql , Azure Container registry, Github Actions Workflow
-
 ![javamysql](/images/javamysql.png)
+
+#### Framework/Languague : Java
+#### Technology Components : Appservice , Azure Database for Mysql , Azure Container registry, Github Actions Workflow
 
 ### In this Automation Lab, we are performing following tasks using Github Action
 
