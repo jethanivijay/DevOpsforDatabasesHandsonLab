@@ -1,7 +1,6 @@
 ## Webapp for Car Rental Vendor to track Trip and expenses using JavaMySQL Stack
 
 ![javamysql](/images/javamysql.png)
-
 #### Framework/Languague : Java
 #### Technology Components : Appservice , Azure Database for Mysql , Azure Container registry, Github Actions Workflow
 
