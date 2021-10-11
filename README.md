@@ -1,4 +1,4 @@
-## Automate Databases using GithubActions and Azure Pipelines !
+## Database Automation using GithubActions and Azure Pipelines !
 
 ## *Github Actions Labs*
 
