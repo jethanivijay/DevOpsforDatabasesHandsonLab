@@ -16,10 +16,10 @@
 ## GithubAction Lab 5 : Create Webapp for Car Rental Vendor using Java and MySQL
 [BranchLink : Java and MySQL DB ](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/JavaMySQLdb)
 
-## AzurePipelines Lab 6 : AzureDevOps Pipelines - Create Polls using Django App and PostgresQLDB
+## AzurePipelines Lab 6 :Create Polls using Django App and PostgresQLDB
 [BranchLink : Polls App](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-DjangoPostgredb)
 
-## AzurePipelines Lab 7 : AzureDevOps Pipelines - Create Car Rental Wesbite using Java and MySQLDB
+## AzurePipelines Lab 7 :Create Car Rental Wesbite using Java and MySQLDB
 [BranchLink : CarRental](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-JavaMySQL)
 
 ##  Instructions to Get Started on this Labs
