@@ -75,4 +75,4 @@ Copy Complete Parenthesis and create Github Secret , This will be our First Gith
 
 ## Code Branches for this Hands on Lab
 
-![**Reference 3 : Code Branches for this Hands on Lab**](branches.JPG)
+![**Reference 3 : Code Branches for this Hands on Lab**](codebranches.JPG)
