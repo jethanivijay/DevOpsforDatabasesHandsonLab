@@ -34,43 +34,56 @@
     az webapp config appsettings set -g $(RESOURCEGROUP) -n $(APPSERVICE) --settings DBPORT=5432
 
 
-### Task 2 : Create Second Pipeline to Build Java Code and push Image to Azure Container Registry
+### Task 2 : Create Second Pipeline to Build Python Code for Django and publish to Webapp
 
-![CodeBuildandPushImage](./images/CodeBuildandPushImage.JPG)
+![CodeBuildandPushImage](./images/builddjango.JPG)
+
+#### Azure CLI commands for Azure CLI task
+
+    python3 -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    python manage.py migrate
+    az webapp config appsettings set -g $(RESOURCEGROUP) -n $(APPSERVICE) --settings DISABLE_COLLECTSTATIC=true
+    az webapp config appsettings set -g $(RESOURCEGROUP) -n $(APPSERVICE) --settings POST_BUILD_COMMAND='python manage.py makemigrations && python manage.py migrate'
+    az webapp config appsettings set -g $(RESOURCEGROUP) -n $(APPSERVICE) --settings SCM_DO_BUILD_DURING_DEPLOYMENT=true
+    az webapp config appsettings set -g $(RESOURCEGROUP) -n $(APPSERVICE) --settings DJANGO_ENV=production
+    az webapp config appsettings set -g $(RESOURCEGROUP) -n $(APPSERVICE) --settings DBPORT=5432
 
 
-### Task 3: Finally Third Pipeline to Push Code to Azure Webapp and MySQL Database
+### Task 3: Create Super User account Finally Third Pipeline to Push Code to Azure Webapp and MySQL Database
 
-![ReleasePipelineJavaMySQL](./images/ReleasePipelineJavaMySQL.JPG)
-![JavaMysqlDeployTask](./images/JavaMysqlDeployTask.JPG)
+#### Use Azure CloudShell to SSH into Webapp and create superuser account
+    az webapp ssh -n  vijaydjangopostgresdevops -g vijaydjangopostgresdevops
+    python manage.py createsuperuser
 
+
+### Finaly browse your website <WebsiteName/admin>
+
+
+![djangoappadminportal](./images/djangoadminlogin.JPG)
+
+
+### Check Login to Admin Website using Super User acccount Created in above step.
  
-### Finaly browse your website <WebsiteName/myshuttledev>
+![djangopollsquestions](images/djangoadminafterlogin.JPG)
 
-![myshuttleapp](./images/myshuttleapp.JPG)
+### Now Browse to Polls Website to submit your choice for Polls Questions
 
-### Check Login to Website using below Default Logins
- 
-1. Select **Login** and try logging in to the site with any one of the following credentials.
+![djangopollschoiceselect](images/pollsapp1.JPG)
 
-   | Username | Password       |
-   | -------- | -------------- |
-   | barney   | barneypassword |
-   | fred     | fredpassword   |
-
-
-   ![MyShuttle page after login](images/myshuttle-afterlogin.png)
+![djangopollschoiceenter](images/pollsapp2.JPG)
    
 
-### Task 4: Update your Database as code with New credentials using MySQLUpdate Release Pipeline
+### Task 4: Update your Polls Questions using Database as code SQL script with PostgresdbUpdate Release Pipeline
 
 # Summary
 **In this Lab we implemented**
 
-**1. Azure Services for Webapp and MySQL Database**
+**1. Azure Services for Webapp and PostgresDB**
 
-**2. Build and Push Container Image to Azure Container Registry**
+**2. Build and Deploy Django App and update PostgresDB**
 
-**3. Updated MYSQL Database Login Credentials using Automation workflow**
+**3. Update Polls Questions using PostgresDB Database update using Automation workflow**
 
-**4. Verified login to Myyshuttle Portal**
+**4. Verified your Polls Questions appear while submitting your choice**
