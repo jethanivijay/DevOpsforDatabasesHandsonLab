@@ -22,7 +22,7 @@
 ### Lab 6 :Create Polls using Django App and PostgresQLDB
 [BranchLink : Polls App](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-DjangoPostgredb)
 
-### AzurePipelines Lab 7 :Create Car Rental Wesbite using Java and MySQLDB
+### Lab 7 :Create Car Rental Wesbite using Java and MySQLDB
 [BranchLink : CarRental](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-JavaMySQL)
 
 ##  Instructions to Get Started on this Labs
