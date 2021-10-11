@@ -1,6 +1,6 @@
-# Automate Databases using GithubActions and Azure Pipelines !
+## Automate Databases using GithubActions and Azure Pipelines !
 
-## **Github Actions Labs**
+## *Github Actions Labs*
 
 ### Lab 1 : Azure SQL Database and update database as code
 [BranchLink : AzureSQLDatabase](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureSQLDatabase)
@@ -17,7 +17,7 @@
 ### Lab 5 : Create Webapp for Car Rental Vendor using Java and MySQL
 [BranchLink : Java and MySQL DB ](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/JavaMySQLdb)
 
-## **Azure DevOps Pipeline Labs**
+## *Azure DevOps Pipeline Labs*
 
 ### Lab 6 :Create Polls using Django App and PostgresQLDB
 [BranchLink : Polls App](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-DjangoPostgredb)
