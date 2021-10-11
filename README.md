@@ -1,21 +1,26 @@
-# DevOpsforDatabases HandsonLab using Github Actions !
+# Automate Databases using GithubActions and Azure Pipelines !
 
 
-## Lab 1 : Azure SQL Database and update database as code
+## GithubAction Lab 1 : Azure SQL Database and update database as code
 [BranchLink : AzureSQLDatabase](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureSQLDatabase)
 
-## Lab 2 : Azure MYSQL Database and update database as code
+## GithubAction Lab 2 : Azure MYSQL Database and update database as code
 [BranchLink : AzureMYSQL](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureMYSQLDatabase)
 
-## Lab 3 : Azure Postgres Database and update database as code
+## GithubAction Lab 3 : Azure Postgres Database and update database as code
 [BranchLink : AzurePostgresDatabase](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzurePostgresDatabase)
 
-## Lab 4  : Create Online Polls using Django App and PostgreSQL DB
+## GithubAction Lab 4  : Create Online Polls using Django App and PostgreSQL DB
 [BranchLink : Django App and PostgreSQL DB](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/DjangoPostgresdb)
 
-## Lab 5 : Create Webapp for Car Rental Vendor using Java and MySQL
+## GithubAction Lab 5 : Create Webapp for Car Rental Vendor using Java and MySQL
 [BranchLink : Java and MySQL DB ](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/JavaMySQLdb)
 
+## AzurePipelines Lab 6 : AzureDevOps Pipelines - Create Polls using Django App and PostgresQLDB
+[BranchLink : Polls App](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-DjangoPostgredb)
+
+## AzurePipelines Lab 7 : AzureDevOps Pipelines - Create Car Rental Wesbite using Java and MySQLDB
+[BranchLink : CarRental](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-JavaMySQL)
 
 ##  Instructions to Get Started on this Labs
 
