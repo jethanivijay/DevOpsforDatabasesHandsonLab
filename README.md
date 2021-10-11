@@ -1,25 +1,28 @@
 # Automate Databases using GithubActions and Azure Pipelines !
 
+## **Github Actions Labs**
 
-## GithubAction Lab 1 : Azure SQL Database and update database as code
+### Lab 1 : Azure SQL Database and update database as code
 [BranchLink : AzureSQLDatabase](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureSQLDatabase)
 
-## GithubAction Lab 2 : Azure MYSQL Database and update database as code
+### Lab 2 : Azure MYSQL Database and update database as code
 [BranchLink : AzureMYSQL](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureMYSQLDatabase)
 
-## GithubAction Lab 3 : Azure Postgres Database and update database as code
+### Lab 3 : Azure Postgres Database and update database as code
 [BranchLink : AzurePostgresDatabase](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzurePostgresDatabase)
 
-## GithubAction Lab 4  : Create Online Polls using Django App and PostgreSQL DB
+### Lab 4  : Create Online Polls using Django App and PostgreSQL DB
 [BranchLink : Django App and PostgreSQL DB](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/DjangoPostgresdb)
 
-## GithubAction Lab 5 : Create Webapp for Car Rental Vendor using Java and MySQL
+### Lab 5 : Create Webapp for Car Rental Vendor using Java and MySQL
 [BranchLink : Java and MySQL DB ](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/JavaMySQLdb)
 
-## AzurePipelines Lab 6 :Create Polls using Django App and PostgresQLDB
+## **Azure DevOps Pipeline Labs**
+
+### Lab 6 :Create Polls using Django App and PostgresQLDB
 [BranchLink : Polls App](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-DjangoPostgredb)
 
-## AzurePipelines Lab 7 :Create Car Rental Wesbite using Java and MySQLDB
+### AzurePipelines Lab 7 :Create Car Rental Wesbite using Java and MySQLDB
 [BranchLink : CarRental](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-JavaMySQL)
 
 ##  Instructions to Get Started on this Labs
@@ -69,8 +72,6 @@ Here is command line reference to create one service principal for you
       }
 
 Copy Complete Parenthesis and create Github Secret , This will be our First Github Secret !
-
-
 
 
 ## Code Branches for this Hands on Lab
