@@ -8,10 +8,10 @@ on:
       - readmeservicecreate.md
 
 env:
-  AZURE_RESOURCE_GROUP: vijaysqlholactions               # set this to your Azure Resource group's name  
+  AZURE_RESOURCE_GROUP: LearnDevopsRG               # set this to your Azure Resource group's name  
   AZURE_LOCATION: eastus                         # set this to your azure resource group location   
-  AZURE_SQL_SERVERNAME: vijaysqlholactions         # set SQL Server  
-  AZURE_SQL_DATABASE: vijaysqlholactions    # set sqladmin user
+  AZURE_SQL_SERVERNAME: balajisqlholactions         # set SQL Server  
+  AZURE_SQL_DATABASE: balajisqlholactions    # set sqladmin user
   AZURE_SQLFIREWALL_IP: 0.0.0.0    # set this to all Azure IPs
   
 
