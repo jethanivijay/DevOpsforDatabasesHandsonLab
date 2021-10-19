@@ -1,0 +1,33 @@
+name: mySql database update
+
+on:
+  push:
+    branches:
+      - AzureMYSQLDatabase
+
+    paths:
+    - readmeformysqlupdate.md
+env:
+  AZURE_MYSQL_SERVERNAME: vijaymysqlholactions.mysql.database.azure.com 
+
+jobs:
+  mysqlupdate:
+    
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: azure/login@v1
+      with:
+        creds: ${{ secrets.ACTIONSDEPLOY }}
+
+     
+    - uses: azure/mysql@v1
+      with:
+        server-name: ${{ env.AZURE_MYSQL_SERVERNAME }}
+        connection-string: ${{ secrets.MYSQL_CONNECTION_STRING }}
+        sql-file: './vijaymysqldatabase.sql'
+
+    # Azure logout 
+    - name: logout
+      run: |
+        az logout
