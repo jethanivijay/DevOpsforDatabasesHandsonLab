@@ -1,0 +1,32 @@
+name: mySql database update
+
+on:
+  push:
+    branches:
+      - JavaMySQLdb
+    paths:
+    - readmemysqlupdate.md
+env:
+  MYSQLSERVERNAME: vijayjavamysqlhol.mysql.database.azure.com
+
+jobs:
+  mysqlupdate:
+    
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: azure/login@v1
+      with:
+        creds: ${{ secrets.ACTIONSDEPLOY }}
+
+     
+    - uses: azure/mysql@v1
+      with:
+        server-name: ${{ env.MYSQLSERVERNAME }}
+        connection-string: ${{ secrets.MYSHUTTLECONNECTION }}
+        sql-file: './myshuttledbupdate.sql'
+
+    # Azure logout 
+    - name: logout
+      run: |
+        az logout
