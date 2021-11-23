@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+	"cosmosdbname": {
+            "value": "vijayjavacosmoshol"
+        },
+        "location": {
+            "value": "eastus"
+        },
+	"locationName": {
+            "value": "East US"
+        },    
+        "defaultExperience": {
+            "value": "Core (SQL)"
+        },
+        "isZoneRedundant": {
+            "value": "false"
+        },
+	"subscriptionId": {
+            "value": "c5e95693-4d23-4d5c-ad8d-904f30699ecc"
+        },
+        "appservicename": {
+            "value": "vijayjavacosmoshol"
+        },
+        "hostingPlanName": {
+            "value": "vijayjavacosmoshol"
+        },
+        "serverFarmResourceGroup": {
+            "value": "vijayjavacosmoshol"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "skuCode": {
+            "value": "S1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "linuxFxVersion": {
+            "value": "TOMCAT|9.0-java11"
+        }
+    }
+}
