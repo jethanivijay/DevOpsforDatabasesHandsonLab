@@ -2,7 +2,7 @@ name: Build and Deploy nodejs and cosmosdb
 on:
   push:
     branches:
-      - nodejscosmosdb
+      - expresscosmosdb
     paths:
     - readmedtrigger.md
 
