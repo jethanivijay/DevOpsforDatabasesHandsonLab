@@ -45,7 +45,7 @@ Create New Release pipeline and add Artifact drop from Build Pipeline
 
 ![releasepipelinetask2](./images/releasepipelinestagetask2.jpg)
 
-
+**NOTE : If your password contains ! special character ensure you enclose your password in single quotes while setting password variable, otherwise curl will fail to deploy WAR package with Unauthorized access denied message**
 
 ### Finaly browse your website <WebsiteName>
 
