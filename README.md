@@ -4,7 +4,7 @@
     - Automation Workflow  : Github Actions and AzureDevOps Pipelines
     - SQLDatabases : AzureSQLDatabase, AzureMySQL and AzurePostgreSQL 
     - NoSQLDatabases : CosmosDB with SQL and MongoDB APIs
-    - Estimate time required to completed Labs is 16 -24 hrs
+    - Estimate time required to completed all Labs is 16 -24 hrs
 
 
 
