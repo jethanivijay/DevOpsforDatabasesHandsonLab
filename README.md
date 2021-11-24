@@ -15,59 +15,52 @@
 5. Enable Continous Deployment trigger for New release to be created everytime new code is built 
 
 
-### Task 1 : Create Build Pipeline to Package NodeJs Express Code
+### Steps for Build Pipeline to Package NodeJs Express Code
 
 Follow step by step instructions as shown in Screenshot below
 
 
-![servicecreation](./images/Buildpipeline.JPG)
+![servicecreation](./images/Buildpipeline.jpg)
 
-![servicecreation](./images/Buildpipelinetask1.JPG)
+![servicecreationtask1](./images/Buildpipelinetask1.jpg)
 
-![servicecreation](./images/Buildpipelinetask2.JPG)
+![servicecreationtask2](./images/Buildpipelinetask2.jpg)
 
-![servicecreation](./images/Buildpipelinetask3.JPG)
+![servicecreationtask3](./images/Buildpipelinetask3.jpg)
 
-![servicecreation](./images/Buildpipelinetask4.JPG)
+![servicecreationtask4](./images/Buildpipelinetask4.jpg)
 
-![servicecreation](./images/Buildpipelinetask5.JPG)
-
-
-### Task 2 : Create Second Pipeline to Build Java Code and push Image to Azure Container Registry
-
-![CodeBuildandPushImage](./images/CodeBuildandPushImage.JPG)
+![servicecreationtask5](./images/Buildpipelinetask5.jpg)
 
 
-### Task 3: Finally Third Pipeline to Push Code to Azure Webapp and MySQL Database
+### Step for Release pipeline to Create Azure Services and Deploy code
 
-![ReleasePipelineJavaMySQL](./images/ReleasePipelineJavaMySQL.JPG)
-![JavaMysqlDeployTask](./images/JavaMysqlDeployTask.JPG)
+Create New Release pipeline and add Artifact drop from Build Pipeline
+
+![releasepipeline](./images/releasepipeline.jpg)
+
+![releasepipelinestage](./images/releasepipelinestage.jpg)
+
+![releasepipelinetask1](./images/releasepipelinestagetask1.jpg)
+
+![releasepipelinetask2](./images/releasepipelinestagetask2.jpg)
+
+![releasepipelinetask3](./images/releasepipelinestagetask3.jpg)
+
+![releasepipelinetask4](./images/releasepipelinestagetask4.jpg)
+
+
+
+### Finaly browse your website <WebsiteName>
+
+![expresscosmodbwebsite](./images/expresscosmosdbwebsite.jpg)
 
  
-### Finaly browse your website <WebsiteName/myshuttledev>
-
-![myshuttleapp](./images/myshuttleapp.JPG)
-
-### Check Login to Website using below Default Logins
- 
-1. Select **Login** and try logging in to the site with any one of the following credentials.
-
-   | Username | Password       |
-   | -------- | -------------- |
-   | barney   | barneypassword |
-   | fred     | fredpassword   |
-
-
-   ![MyShuttle page after login](images/myshuttle-afterlogin.png)
-   
-
-### Task 4: Update your Database as code with New credentials using MySQLUpdate Release Pipeline
-
 # Summary
-**In this Lab we implemented**
+**In this Lab using Azure Pipeline as Automation workflow we implemented**
 
-**1. Azure Services for Webapp and MySQL Database**
+**1. Azure Services for Webapp and Cosmosdb Database**
 
-**2. Build and Push Container Image to Azure Container Registry**
+**2. Build ExpressJs Code and package saved as Artifact**
 
-**3. Updated MYSQL Database Login Credentials using Automation workflow**
+**3. Created Azure Services in Release pipelines and updated code using Automation workflow**
