@@ -1,10 +1,10 @@
 # DevOps for Databases Hands on Lab !
 
-### - Implement and update Database as Code using DevOps workflows
-### - Automation Workflow used : Github Actions and AzureDevOps Pipelines
-### - SQLDatabases : AzureSQLDatabase, AzureMySQL and AzurePostgreSQL 
-### - NoSQLDatabases : CosmosDB with SQL and MongoDB APIs
-### - Estimate time required to completed Labs is 16 -24 hrs
+## Implement and update Database as Code using DevOps workflows
+    - Automation Workflow  : Github Actions and AzureDevOps Pipelines
+    - SQLDatabases : AzureSQLDatabase, AzureMySQL and AzurePostgreSQL 
+    - NoSQLDatabases : CosmosDB with SQL and MongoDB APIs
+    - Estimate time required to completed all Labs is 16 -24 hrs
 
 
 
@@ -40,7 +40,7 @@
 [BranchLink : AzureDevOps-CarRentalApp](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-JavaMySQL)
 
 ### Lab 10 : Track Website Hits with Express and Cosmosdb(MongoAPI)
-[BranchLink : AzureDevops-ExpressCosmosDb ](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevops-expresscosmosdb)
+[BranchLink : AzureDevops-ExpressCosmosDb ](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-expresscosmosdb)
 
 ### Lab 11 : Create ToDoList with Status check using Java and CosmosDB(SQLAPI)
 [BranchLink : AzureDevOps-javacosmosdb ](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-javacosmosdb)
