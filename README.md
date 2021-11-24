@@ -1,4 +1,12 @@
-## Database Automation using GithubActions and Azure Pipelines !
+# DevOps for Databases Hands on Lab !
+
+### - Implement and update Database as Code using DevOps workflows
+### - Automation Workflow used : Github Actions and AzureDevOps Pipelines
+### - SQLDatabases : AzureSQLDatabase, AzureMySQL and AzurePostgreSQL 
+### - NoSQLDatabases : CosmosDB with SQL and MongoDB APIs
+### - Estimate time required to completed Labs is 16 -24 hrs
+
+
 
 ## *Github Actions Labs*
 
@@ -17,13 +25,25 @@
 ### Lab 5 : Create Webapp for Car Rental Vendor using Java and MySQL
 [BranchLink : Java and MySQL DB ](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/JavaMySQLdb)
 
+### Lab 6 : Track Website Hits with Express and Cosmosdb(MongoAPI)
+[BranchLink : NodeJsExpress and CosmosDB ](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/expresscosmosdb)
+
+### Lab 7 : Create ToDoList with Status check using Java and CosmosDB(SQLAPI)
+[BranchLink : Java and CosmosDB ](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/javacosmosdb)
+
 ## *Azure DevOps Pipeline Labs*
 
-### Lab 6 :Create Polls using Django App and PostgresQLDB
-[BranchLink : Polls App](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-DjangoPostgredb)
+### Lab 8 :Create Polls using Django App and PostgresQLDB
+[BranchLink : AzureDevOps-PollsApp](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-DjangoPostgredb)
 
-### Lab 7 :Create Car Rental Wesbite using Java and MySQLDB
-[BranchLink : CarRental](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-JavaMySQL)
+### Lab 9 :Create Car Rental Wesbite using Java and MySQLDB
+[BranchLink : AzureDevOps-CarRentalApp](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-JavaMySQL)
+
+### Lab 10 : Track Website Hits with Express and Cosmosdb(MongoAPI)
+[BranchLink : AzureDevops-ExpressCosmosDb ](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevops-expresscosmosdb)
+
+### Lab 11 : Create ToDoList with Status check using Java and CosmosDB(SQLAPI)
+[BranchLink : AzureDevOps-javacosmosdb ](https://github.com/jethanivijay/DevOpsforDatabasesHandsonLab/tree/AzureDevOps-javacosmosdb)
 
 ##  Instructions to Get Started on this Labs
 
