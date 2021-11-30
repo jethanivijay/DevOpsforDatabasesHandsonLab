@@ -6,7 +6,7 @@ import com.azure.cosmos.CosmosClientBuilder;
 
 public class CosmosClientFactory {
     private static final String HOST = "https://vijayjavacosmoshol.documents.azure.com:443/";
-    private static final String MASTER_KEY = "EYpLOHH3pRqROlzwu4lsvo659tzYSeUjBSma0OWkaEzezFZ1HIcxgX8HT4CMijoaRNRFM5T4dU7sA2JoYgZedw==";
+    private static final String MASTER_KEY = "9xAtp3kbwmCr1FVAUCvsEABUdwpX7gBEkKFOPv4BZuUUPzfCJEl8jx7RikgFuQPARx7gp020ehOeeEUEi0uVBg==";
 
     private static CosmosClient cosmosClient = new CosmosClientBuilder()
             .endpoint(HOST)
